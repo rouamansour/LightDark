@@ -1,0 +1,35 @@
+body.light {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+body.dark {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+body.blue {
+  background-color: #344CB7 !important;
+  color: #ffffff !important;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  text-align: center; 
+  flex-direction: column;
+  width: 100%;
+}
+
